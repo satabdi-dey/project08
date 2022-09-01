@@ -9,8 +9,7 @@ body{
     nav{
         display:flex;
         margin: 40px 40px;
-        padding: 0px 80px;
-        justify-content: left;
+        justify-content: space-around;
         position: relative;
     }
     .nav-items{
@@ -51,7 +50,7 @@ body{
     }
     h4{
         color: #1e2353;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 100;
         padding-right: 50%;
     }
@@ -81,4 +80,90 @@ body{
 .vector-dot{
   bottom:18%;
     position: absolute;
+}
+@media screen and (max-width: 1290px){
+    .signin-btn{
+        padding: 0px 10px;
+        margin-top: 0px;
+        font-size: 12px;
+        border-radius: 10px;
+        
+        
+    }
+    nav{
+        display:flex;
+        margin: 40px 0px;
+        justify-content: space-evenly;
+        }
+        .nav-items{
+            display: flex;
+            Margin:0% 10%;
+            color: #222b75;
+        }
+}
+@media screen and (max-width: 880px){
+    .signin-btn{
+        padding: 0px 10px;
+        margin-top: 0px;
+        font-size: 12px;
+        border-radius: 10px;
+        
+        
+    }
+    nav{
+        display:flex;
+        margin: 40px 0px;
+        justify-content: space-evenly;
+        }
+        .nav-items{
+            display: flex;
+            Margin:0% 3%;
+            color: #222b75;
+        }
+}
+@media screen and (max-width: 750px){
+    .signin-btn{
+        padding: 0px 10px;
+        margin-top: 0px;
+        font-size: 12px;
+        border-radius: 10px;
+        
+        
+    }
+    nav{
+        display:flex;
+        margin: 40px 0px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        }
+        .nav-items{
+            display: flex;
+            Margin:0% 3%;
+            color: #222b75;
+        }
+        .intro-section{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-left: 4%;
+            margin-right: 4%;
+
+            
+        }
+        .left-section{
+            margin-top: 5%;
+            text-align: center;
+        }
+        h4{
+            color: #1e2353;
+            font-size: 14px;
+            font-weight: 100;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 0;
+        }
+        body{
+            background-size: cover;
+            background-position: top right;
+            margin: 0%;
+        }
 }
